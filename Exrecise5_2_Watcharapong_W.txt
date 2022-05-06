@@ -1,0 +1,3 @@
+v = int(input("Distance (km) : "))
+t = int(input("Time (hr) : "))
+print(v/t, "km/hr")
