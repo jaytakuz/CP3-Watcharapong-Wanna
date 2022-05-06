@@ -1,0 +1,47 @@
+print("Welcome to JJ Computer Store")
+print("Please enter your Username")
+usernameInput = input("Username : ")
+passwordInput = input("Password : ")
+if usernameInput == "customer1" and passwordInput == "2022":
+    print("Login Success")
+    print("Please select a CPU")
+    print("1. RYZEN 5 (7,390 THB)")
+    print("2. RYZEN 7 (11,000 THB)")
+    print("3. Intel i5 (8,140 THB)")
+    print("4. Intel i7 (13,900 THB)")
+    print("5. Intel i9 (29,900 THB)")
+    userSelected = int(input(">> "))
+    if userSelected == 1:
+        print("Your CPU is RYZEN 5")
+        amount = int(input("Quantity = "))
+        total = (7390*amount)
+        print("Total Price is ", total, "THB")
+        print("--- Thank you for your trust :) ---")
+    elif userSelected == 2:
+        print("Your CPU is RYZEN 7")
+        amount = int(input("Quantity = "))
+        total = (11000 * amount)
+        print("Total Price is ", total, "THB")
+        print("--- Thank you for your trust :) ---")
+    elif userSelected == 3:
+        print("Your CPU is Intel i5")
+        amount = int(input("Quantity = "))
+        total = (8140 * amount)
+        print("Total Price is ", total, "THB")
+        print("--- Thank you for your trust :) ---")
+    elif userSelected == 4:
+        print("Your CPU is Intel i7")
+        amount = int(input("Quantity = "))
+        total = (13900 * amount)
+        print("Total Price is ", total, "THB")
+        print("--- Thank you for your trust :) ---")
+    elif userSelected == 5:
+        print("Your CPU is Intel i9")
+        amount = int(input("Quantity = "))
+        total = (29900 * amount)
+        print("Total Price is ", total, "THB")
+        print("--- Thank you for your trust :) ---")
+    else:
+        print("That option doesn't exist. Please try again.")
+else:
+    print("Your Username or Password is wrong.")
