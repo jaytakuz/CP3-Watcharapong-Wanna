@@ -1,0 +1,10 @@
+FE = 82.51
+GB = 73.80
+ICS = 79.25
+CP = 90.32
+print("--- Your Score ---")
+print("Foundation English :", FE)
+print("General Business", GB)
+print("Introduction to Computer Systems", ICS)
+print("Computer Programming", CP)
+print("------------------")
